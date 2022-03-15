@@ -44,5 +44,12 @@ public class Estudiante {
                 ", carrera=" + carrera +
                 '}';
     }
+
+    public static void imprimir(Estudiante estudiante){
+        System.out.println("Nombre: " + estudiante.getNombre());
+        System.out.println("Edad: " + estudiante.getEdad());
+        System.out.println("Carrera: " + estudiante.getCarrera().toString());
+    }
+
 }
 
